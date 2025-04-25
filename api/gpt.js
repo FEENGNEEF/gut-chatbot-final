@@ -1,5 +1,3 @@
-const fetch = require('node-fetch');
-
 module.exports = async (req, res) => {
   const { prompt } = req.body;
   const apiKey = process.env.OPENAI_API_KEY;
